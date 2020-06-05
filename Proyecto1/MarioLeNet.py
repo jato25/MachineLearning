@@ -95,7 +95,8 @@ if __name__ == "__main__":
     steps_per_epoch = 206
 
     MarioLeNet.fit(x=train_dataset,
-                   shuffle=True,
+                   shuffle
+                   =True,
                    verbose=2,
                    callbacks=[Checkpoints, TensorBoard],
                    steps_per_epoch=steps_per_epoch,
