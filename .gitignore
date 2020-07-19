@@ -1,4 +1,4 @@
-.ipnynb_checkpoints/
+.ipynb_checkpoints/
 .idea/
-.zip
-.pdf
+*.zip
+*.pdf
